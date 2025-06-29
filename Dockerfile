@@ -15,4 +15,4 @@ CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8181"]
 RUN php artisan cache:clear
 RUN php artisan config:clear
 RUN npm install
-RUN npm run build
+# RUN npm run build
